@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JWT Auth Example</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="scripts/app.js" defer></script>
+</head>
+<body>
+  <div id="access">
+      <div id="noToken" class="show">
+        <a id="login" href="#">Log In</a> | 
+        <a id="signup" href="#">Sign Up</a>
+      </div>
+      <div id="yesToken" class="show">
+        <a id="logout" href="#">Log Out</a>
+      </div>
+  </div>
+  <p id="message"></p>
+
+  <form id="loginForm" class="show">
+    <p>Login</p>
+    <div>
+      <label for="loginEmail">Email</label>
+      <input id="loginEmail" type="text" name="email"/>
+    </div>
+    <div>
+      <label for="loginPassword">Passord</label>
+      <input id="loginPassword" type="password" name="password"/>
+    </div>
+    <div>
+      <input type="submit" />
+    </div>
+  </form>
+
+  <form id="signupForm" class="show">
+    <p>Signup</p>
+      <div>
+        <label for="singupEmail">Email</label>
+        <input id="singupEmail" type="text" name="email"/>
+      </div>
+      <div>
+        <label for="signupPassword">Passord</label>
+        <input id="signupPassword" type="password" name="password"/>
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+
+
+</body>
+</html>

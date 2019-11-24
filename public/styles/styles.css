@@ -1,0 +1,15 @@
+
+
+.show {
+  display: none;
+}
+
+form {
+  width: 30%;
+  line-height: 1.68em;
+  text-align: center;
+  padding: 2em;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 20px;
+}
